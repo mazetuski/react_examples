@@ -9,4 +9,4 @@
 ### Uso
 
 - Cada carpeta es un ejemplo distinto mostrado en la presentación
-- Puedes seguir la presentación con el ejemplo ``Empty`` para hacerlo desde cero
+- Puedes seguir la presentación con el ejemplo ``empty`` de cada ejercicio para hacerlo desde cero
