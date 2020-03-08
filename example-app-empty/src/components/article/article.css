@@ -1,0 +1,37 @@
+.article-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.article {
+    flex: 0 0 98%;
+    padding: 1rem;
+    box-shadow: 1px 5px 5px darkgray;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+}
+
+.article img {
+    max-width: 100%;
+}
+
+.article-price {
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+@media only screen and (min-width: 512px) {
+    .article {
+        flex: 0 0 48%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .article {
+        flex: 0 0 22%;
+    }
+}
