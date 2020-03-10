@@ -1,6 +1,6 @@
 .App {
   text-align: left;
-  background-color: #f7f7f7;
+  background-color: #fff;
 }
 
 main {
@@ -40,5 +40,9 @@ main {
 .btn {
   padding: .8rem;
   border: 1px solid #717171;
+  cursor: pointer;
+}
+
+button {
   cursor: pointer;
 }
