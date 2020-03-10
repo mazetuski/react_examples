@@ -11,6 +11,14 @@
     box-shadow: 1px 5px 5px darkgray;
     box-sizing: border-box;
     margin-bottom: 2rem;
+    transition: 0.5s all;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.article:hover{
+    transition: 0.5s all;
+    transform: scale(1.05);
 }
 
 .article img {
