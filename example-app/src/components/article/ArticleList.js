@@ -1,7 +1,7 @@
 import React from 'react'
 import Article from './Article'
 import articles from '../../data.js'
-import './article.css';
+import './css/article.css';
 
 class ArticleList extends React.Component {
     render() {

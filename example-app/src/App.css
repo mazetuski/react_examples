@@ -33,11 +33,12 @@ main {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-muted {
+  color: #717171;
+}
+
+.btn {
+  padding: .8rem;
+  border: 1px solid #717171;
+  cursor: pointer;
 }

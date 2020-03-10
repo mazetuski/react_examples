@@ -1,0 +1,35 @@
+.App {
+    background-color: #fff!important;
+}
+
+.article-detail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 95%;
+    margin: 3rem auto 6rem auto;
+}
+
+.article-detail img {
+    max-width: 100%;
+}
+
+.article-detail-image, .article-detail-body {
+    flex: 0 0 49%;
+    box-sizing: border-box;
+}
+
+.article-detail-body hr {
+    border: .5px solid #d5d5d5;
+}
+
+.article-detail-reviews p, .article-detail-btn {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .article-detail {
+        max-width: 80%;
+    }
+}
