@@ -12,8 +12,8 @@ import {
 function App() {
   return (
     <div className="App">
-      <Header/>
       <Router>
+        <Header/>
         <Switch>
           <Route path="/article/:id" component={ArticleDetail} />
           <Route path="/">

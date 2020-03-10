@@ -39,7 +39,7 @@ class ArticleDetail extends React.Component {
                 <h2>{this.state.article.price}</h2>
                 <p>{this.state.article.description}</p>
                 <button className="btn article-detail-btn">Add to cart</button>
-                <Link to={`/`}>
+                <Link to="/">
                   <button className="btn article-detail-btn">Go home</button>
                 </Link>
               </div>
