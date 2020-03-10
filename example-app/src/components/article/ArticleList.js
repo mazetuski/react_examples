@@ -9,12 +9,9 @@ class ArticleList extends React.Component {
             <div className='article-wrapper'>
                 {articles.map(article => {
                     return (
-                        <Article 
+                        <Article
                             key={article.id}
-                            title={article.name}
-                            description={article.description} 
-                            price={article.price} 
-                            image={article.image}
+                            article={article}
                         />
                     )})
                 }
