@@ -9,7 +9,7 @@ class Article extends React.Component {
                 <Link to={`/article/${id}`}>
                   <img src={image} alt={title}/>
                 </Link>
-                <div className="article-title">{title}</div>
+                <p className="article-title">{title}</p>
                 <p className="article-description">{short_description}</p>
                 <p className="article-price">{price}</p>
             </div>

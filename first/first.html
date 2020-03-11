@@ -22,10 +22,24 @@
         <div>
           <h1>Hello World!</h1>
           <h2>React test</h2>
+          <AlertComponent alert="Hello World!" buttonText="Alert"/>
         </div>
       )
     }
   }
+
+  class AlertComponent extends React.Component {
+    makeAlert(text) {
+      alert(text);
+    }
+    render() {
+      const { alert, buttonText } = this.props;
+      return (
+        <input type="button" onClick={this.makeAlert.bind(this, alert)} value={buttonText}/>
+      )
+    }
+  }
+
   ReactDOM.render(<App/>, document.getElementById('root'))
 </script>
 </body>
